@@ -1,0 +1,13 @@
+{
+  "$schema": "./employee.schema.json",
+  "employeeId": 1,
+  "fullName": "Jon Doe",
+  "email": "not-an-email",
+  "isActive": "yes",
+  "salary": 1000,
+  "department": "Support",
+  "skills": [],
+  "manager": {
+    "managerId": "manager-1"
+  }
+}

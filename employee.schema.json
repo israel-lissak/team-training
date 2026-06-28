@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Employee",
+  "type": "object",
+  "properties": {
+    "employeeId": {
+      "type": "integer"
+    },
+    "fullName": {
+      "type": "string",
+      "minLength": 3
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "salary": {
+      "type": "number",
+      "minimum": 30000
+    },
+    "department": {
+      "type": "string",
+      "enum": [
+        "Engineering",
+        "HR",
+        "Sales",
+        "Marketing"
+      ]
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "manager": {
+      "type": "object",
+      "properties": {
+        "managerId": {
+          "type": "integer"
+        },
+        "managerName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "managerId",
+        "managerName"
+      ]
+    }
+  },
+  "required": [
+    "employeeId",
+    "fullName",
+    "email",
+    "department"
+  ],
+  "additionalProperties": false
+}
