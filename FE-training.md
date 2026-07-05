@@ -813,7 +813,7 @@ const banana: fruitEnumType = "banana"; // Error: Type '"banana"' is not assigna
 
 #### Why would we use this instead of an enum? 
 
-Enums in TypeScript compile to actual js objects in runtime, unlike TypeScript types - this adds unnecessary code during runtime. In addition, they can change during runtime, making them a less strict and less type-safe option than other alternatives. You can read more about this reasoning [here](https://www.google.com/url?q=https://www.totaltypescript.com/erasable-syntax-only&sa=D&source=docs&ust=1772553073104896&usg=AOvVaw2rZHVf4zkK7rAYfw3IoxXm).
+Enums in TypeScript compile to actual js objects in runtime, unlike TypeScript types - this adds unnecessary code during runtime. In addition, they can change during runtime, making them a less strict and less type-safe option than other alternatives. You can read more about this reasoning [here](https://www.totaltypescript.com/erasable-syntax-only).
 
 ## Self-Research
 
