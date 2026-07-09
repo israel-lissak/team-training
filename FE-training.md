@@ -1,29 +1,5 @@
 # Fusion Team Training
 
-Subjects
-
-- npm cli and package.jsn  
-- git
-
-# Day one
-
-## Getting started with npm
-
-**npm** is a **package manager** for JavaScript projects.
-
-1. Describe in your own words what is a *package manager*?  
-2. What makes a directory an npm project?  
-3. What’s the role of the “scripts” section?  
-4. What’s the command to create a new project with npm CLI?  
-5. List as many differences as possible between *dev dependencies* and regular *dependencies*
-
-## JSON
-
-JSON, JavaScript Object Notation is a common format for storing data, configuration and other kinds of information.
-
-1. What does JSON stand for?.  
-2. Research for alternative formats like JSON 
-
 # What is npm?
 
 npm is a package manager for JavaScript projects. We can use it to install, uninstall, update, and manage JS packages, run scripts, publish our own packages and track dependencies.
@@ -2482,36 +2458,6 @@ What is routing? Routing is the process of determining what content or component
 ## Tanstack Query
 
 ## Tanstack Form
-
-## Self-Research
-
-Read about keyof and typeof. Answer the following questions:
-
-1. What do the keyof and typeof keywords do? explain in your own words.  
-2. In the previous enums section, we create a type from an object - explain this process.  
-3. **TODO**: another question
-
-Read about Falsy and truthy values. Answer the following questions:
-
-1. What are falsy and truthy values? list all the falsy and truthy values.  
-2. What are the differences between null and undefined?  
-3. What is a nullish value?  
-4. For the next expressions, determine their value at **runtime**, and explain why:  
-   
-```ts
-Boolean(0);  
-Boolean(null);  
-Boolean(" ");  
-Boolean({});  
-Boolean([]);  
-Boolean(-1);  
-Boolean([] == false);  
-Boolean([] == 0);  
-Boolean(undefined == null);  
-Boolean(undefined === null);  
-Boolean(NaN == false);  
-Boolean(NaN == NaN);
-```
 
 Read the code Guidelines!
 
