@@ -2457,9 +2457,19 @@ What is routing? Routing is the process of determining what content or component
 
 ## Tanstack Query
 
+Read the [Tanstack Query docs](https://tanstack.com/query/latest)
+
+you can also read this [article](https://medium.com/@vinitkumar93341/tanstack-query-the-complete-beginners-guide-78e1af6c9d69) to get a better understanding of the library.
+
+
+
 ## Tanstack Form
 
-Read the code Guidelines!
+Read the [Tanstack Form docs](https://tanstack.com/form/latest)
+
+you can also read this [article](https://medium.com/@BitrockIT/hands-on-with-tanstack-form-c2e217412561) to get a better understanding of the library.
+
+# Read the code Guidelines!
 
 # Resources
 
